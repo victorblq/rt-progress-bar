@@ -1,7 +1,7 @@
 <div class="row" layout-align="center center">
-    <div class="meter" style="background: #{{fgColor}};" >
+    <div class="meter" [style.background.color]="fgColor" >
         <span class="progressParent" [style.width.%]="percentage">
-            <span class="progress" style="background: #{{bgColor}};"></span>
+            <span class="progress" [style.background.color]="bgColor"></span>
         </span>
     </div>
 </div>
