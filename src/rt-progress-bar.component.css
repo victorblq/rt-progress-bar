@@ -13,7 +13,6 @@
     display: block;
     height: 30px;
     position: relative;
-    background-color: rgba(0, 150, 136, 0.30);
     overflow: hidden;
 }
 
@@ -23,7 +22,6 @@
 }
 
 .progress {
-    background: #009688;
     -webkit-animation: progressBar 1s ease-in-out;
     -webkit-animation-fill-mode:both; 
     -moz-animation: progressBar 1s ease-in-out;

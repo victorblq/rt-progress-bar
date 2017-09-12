@@ -14,4 +14,14 @@ export class RtProgressBarComponent
      * 
      */
     @Input("percentage") percentage: number;
+
+    /**
+     * 
+     */
+    @Input("bgColor") bgColor: string;
+
+    /**
+     * 
+     */
+    @Input("fgColor") fgColor: string;
 }
