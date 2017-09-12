@@ -12,7 +12,7 @@ and then from your Angular `AppModule`:
 
 ```typescript
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
@@ -27,7 +27,8 @@ import { RtProgressBar } from 'rt-progress-bar';
     RtProgressBarModuleModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }
 ```
@@ -36,7 +37,7 @@ export class AppModule { }
 <h1>
   {{title}}
 </h1>
-<progress-bar [percentage]="50"></progress-bar>
+<rt-progress-bar [percentage]="50"></rt-progress-bar>
 ```
 
 ## License
