@@ -1,0 +1,28 @@
+{
+  "name": "rt-progress-bar",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victorblq/rt-progress-bar"
+  },
+  "author": {
+    "name": "Victor Carvalho",
+    "email": "victor.blq@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorblq/rt-progress-bar/issues"
+  },
+  "main": "rt-progress-bar.umd.js",
+  "module": "rt-progress-bar.js",
+  "jsnext:main": "rt-progress-bar.js",
+  "typings": "rt-progress-bar.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
