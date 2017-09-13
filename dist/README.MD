@@ -1,4 +1,5 @@
 # rt-progress-bar
+A realtime animated progress bar for Angular 4+
 
 ## Installation
 
@@ -37,7 +38,7 @@ export class AppModule { }
 <h1>
   {{title}}
 </h1>
-<rt-progress-bar [percentage]="50"></rt-progress-bar>
+<rt-progress-bar [percentage]="50" [bgColor]="'#ccc'" [fgColor]="'rgba(125, 125, 50, 0.4)'"></rt-progress-bar>
 ```
 
 ## License
