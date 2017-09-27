@@ -1,6 +1,9 @@
 # rt-progress-bar
 A realtime animated progress bar for Angular 4+
 
+## Demo
+http://plnkr.co/edit/OlfIph?p=preview
+
 ## Installation
 
 To install this library, run:
