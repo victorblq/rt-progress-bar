@@ -2,7 +2,7 @@
 A realtime animated progress bar for Angular 4+
 
 ## Demo
-http://plnkr.co/edit/OlfIph?p=preview
+http://plnkr.co/edit/ZeWzim?p=preview
 
 ## Installation
 
