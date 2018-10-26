@@ -2,7 +2,7 @@
 A realtime animated progress bar for Angular 7 (For angular 4 use < 0.3.6)
 
 ## Demo
-Pending
+[Stackblitz](https://stackblitz.com/edit/rt-progress-bar?embed=1&file=app/app.component.html)
 
 ## Installation
 

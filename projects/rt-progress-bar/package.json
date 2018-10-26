@@ -1,6 +1,6 @@
 {
     "name": "rt-progress-bar",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "repository": {
         "type": "git",
         "url": "https://github.com/victorblq/rt-progress-bar"
@@ -13,7 +13,9 @@
         "angular",
         "progress",
         "progress-bar",
-        "progress bar"
+        "progress bar",
+        "ngx-progess-bar",
+        "ngx"
     ],
     "license": "MIT",
     "bugs": {
