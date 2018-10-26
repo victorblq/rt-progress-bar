@@ -1,0 +1,26 @@
+{
+    "name": "rt-progress-bar",
+    "version": "1.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/victorblq/rt-progress-bar"
+    },
+    "author": {
+        "name": "Victor Carvalho",
+        "email": "victor.blq@gmail.com"
+    },
+    "keywords": [
+        "angular",
+        "progress",
+        "progress-bar",
+        "progress bar"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/victorblq/rt-progress-bar/issues"
+    },
+    "peerDependencies": {
+        "@angular/common": "^7.0.0",
+        "@angular/core": "^7.0.0"
+    }
+}
