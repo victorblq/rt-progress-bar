@@ -37,10 +37,8 @@ import { RtProgressBar } from 'rt-progress-bar';
 export class AppModule { }
 ```
 
+At your component use it like:
 ```xml
-<h1>
-  {{title}}
-</h1>
 <rt-progress-bar [percentage]="50" [bgColor]="'#ccc'" [fgColor]="'rgba(125, 125, 50, 0.4)'"></rt-progress-bar>
 <!-- Colors can be passed in any format: #111, rgb(), rgba(), red, blue just pass it as string with quotes -->
 ```
